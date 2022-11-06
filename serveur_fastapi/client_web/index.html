@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Protocole Domestique</title>
+    </head>
+    <body>
+        <h1>Protocole Domestique</h1>
+        <form action="" onsubmit="return false">
+            <label for="nomTache" >Nom de la tâche: </label><input type="text" name="nomTache" id="nomTache" autocomplete="off"/>
+            <label for="duePour" >Due pour: </label><input type="datetime-local" name="duePour" id="duePour" autocomplete="off"/>
+            <button onclick="sendMessage(this)">Ajouter tâche</button>
+        </form>
+        <ul id='messages'>
+        </ul>
+        <script>
+            function createUUID() { // https://gist.github.com/ifandelse/3031112
+                var s = [];
+                var hexDigits = "0123456789abcdef";
+                for (var i = 0; i < 36; i++) {
+                    s[i] = hexDigits.substr(Math.floor(Math.random() * 0x10), 1);
+                }
+                s[14] = "4";  // bits 12-15 of the time_hi_and_version field to 0010
+                s[19] = hexDigits.substr((s[19] & 0x3) | 0x8, 1);  // bits 6-7 of the clock_seq_hi_and_reserved to 01
+                s[8] = s[13] = s[18] = s[23] = "-";
+                return s.join("");
+            }
+
+            const monId = createUUID()
+            let ws = new WebSocket("ws://localhost:8080/ws/" + monId);
+            ws.onmessage = function(event) {
+                var messages = document.getElementById('messages')
+                var message = document.createElement('li')
+                var content = document.createTextNode(event.data)
+                message.appendChild(content)
+                messages.appendChild(message)
+            };
+            function sendMessage(event) {
+                let tache = document.getElementById("nomTache")
+                let due = document.getElementById("duePour")
+                let obj = {}
+                obj['id_client'] = monId
+                obj['nom_tache'] = tache.value
+                obj['due_pour'] = due.value
+                // ws.send(JSON.stringify(obj))
+                fetch('/api/taches', {
+                    method: 'POST',
+                    headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(obj)
+                });
+
+                tache.value = ''
+                tache.due = ''
+            }
+        </script>
+    </body>
+</html>

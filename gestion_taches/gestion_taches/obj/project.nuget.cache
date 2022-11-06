@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ytjwpSZ9xtLbXKUok/XPH/NqdMkjXoS52IpS9vvoP/rjSSkcDOZk5d3dfBN+HOysNk19VgTojzzBr+5irIlHAg==",
+  "success": true,
+  "projectFilePath": "E:\\code\\3N5\\domestique_mqtt\\gestion_taches\\gestion_taches\\gestion_taches.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\mqttnet\\4.1.2.350\\mqttnet.4.1.2.350.nupkg.sha512"
+  ],
+  "logs": []
+}

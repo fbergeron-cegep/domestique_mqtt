@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "gestion_taches/1.0.0": {
+        "dependencies": {
+          "MQTTnet": "4.1.2.350"
+        },
+        "runtime": {
+          "gestion_taches.dll": {}
+        }
+      },
+      "MQTTnet/4.1.2.350": {
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "assemblyVersion": "4.1.2.350",
+            "fileVersion": "4.1.2.350"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "gestion_taches/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MQTTnet/4.1.2.350": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-etoNFb3b3wm/Ti1RROXbSDtpx4kuYoWkOjACdZqsmPNb2pWk8QjzwTNW5yqWL91DxCKo6T8pjfrxvADicd8+9w==",
+      "path": "mqttnet/4.1.2.350",
+      "hashPath": "mqttnet.4.1.2.350.nupkg.sha512"
+    }
+  }
+}

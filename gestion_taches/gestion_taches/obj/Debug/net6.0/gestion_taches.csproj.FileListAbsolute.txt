@@ -1,0 +1,17 @@
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\bin\Debug\net6.0\gestion_taches.exe
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\bin\Debug\net6.0\gestion_taches.deps.json
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\bin\Debug\net6.0\gestion_taches.runtimeconfig.json
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\bin\Debug\net6.0\gestion_taches.dll
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\bin\Debug\net6.0\gestion_taches.pdb
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\bin\Debug\net6.0\MQTTnet.dll
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.csproj.AssemblyReference.cache
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.AssemblyInfoInputs.cache
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.AssemblyInfo.cs
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.csproj.CoreCompileInputs.cache
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.csproj.CopyComplete
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.dll
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\refint\gestion_taches.dll
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.pdb
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\gestion_taches.genruntimeconfig.cache
+E:\code\3N5\domestique_mqtt\gestion_taches\gestion_taches\obj\Debug\net6.0\ref\gestion_taches.dll
